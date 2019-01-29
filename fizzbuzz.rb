@@ -7,4 +7,5 @@ def fizzbuzz(value)
   if (value % 5) == 0 
     result += 'Buzz'
     result
+  end
 end
