@@ -8,5 +8,5 @@ def fizzbuzz(value)
   if (value % 5) == 0 
     result += 'Buzz'
   end
-  result
+  unless result != '' return nil
 end
