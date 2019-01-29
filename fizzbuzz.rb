@@ -4,8 +4,9 @@ def fizzbuzz(value)
   result = nil
   if (value % 3) == 0 
     result += 'Fizz'
+  end
   if (value % 5) == 0 
     result += 'Buzz'
-    result
   end
+  result
 end
